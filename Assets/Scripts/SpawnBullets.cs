@@ -27,15 +27,11 @@ public class SpawnBullets : MonoBehaviour
     private void Shoot() 
     {
         //If the player hasn't won, spawn bullets at a random interval; otherwise log that the player won (the spawner isn't turning off and I'm trying to fix that)
-        if (!player.getWon())
+        if (player != null && !player.getWon())
         {
             Instantiate(bullet, transform.position, bullet.transform.rotation);
             randomShootTime = Random.Range(randomMinimum, randomMaximum);
             Invoke("Shoot", randomShootTime);
-        }
-        else 
-        {
-            Debug.Log("The Player Won");
         }
     }
 }

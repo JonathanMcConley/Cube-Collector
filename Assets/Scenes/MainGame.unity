@@ -267,7 +267,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4320885674341393173, guid: 3abc88cfe7780b445b72ceadfabe0d3d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4320885674341393173, guid: 3abc88cfe7780b445b72ceadfabe0d3d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -279,7 +279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4320885674341393173, guid: 3abc88cfe7780b445b72ceadfabe0d3d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 4320885674341393173, guid: 3abc88cfe7780b445b72ceadfabe0d3d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -436,6 +436,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9067754835279596839, guid: 7bc840069cce4d048853d11fbc162514, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 401006345}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc840069cce4d048853d11fbc162514, type: 3}
 --- !u!1 &382559931 stripped
@@ -966,6 +970,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9067754835279596839, guid: 7bc840069cce4d048853d11fbc162514, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 401006345}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc840069cce4d048853d11fbc162514, type: 3}
 --- !u!1001 &1192025863
@@ -985,7 +993,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4320885674341393173, guid: 3abc88cfe7780b445b72ceadfabe0d3d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4320885674341393173, guid: 3abc88cfe7780b445b72ceadfabe0d3d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -997,7 +1005,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4320885674341393173, guid: 3abc88cfe7780b445b72ceadfabe0d3d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 4320885674341393173, guid: 3abc88cfe7780b445b72ceadfabe0d3d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1097,6 +1105,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9067754835279596839, guid: 7bc840069cce4d048853d11fbc162514, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 401006345}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc840069cce4d048853d11fbc162514, type: 3}
 --- !u!1 &1244126250
@@ -1317,6 +1329,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9067754835279596839, guid: 7bc840069cce4d048853d11fbc162514, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 401006345}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc840069cce4d048853d11fbc162514, type: 3}
 --- !u!1 &1781355429 stripped
@@ -1383,6 +1399,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9067754835279596839, guid: 7bc840069cce4d048853d11fbc162514, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 401006345}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc840069cce4d048853d11fbc162514, type: 3}
 --- !u!1001 &2030035676
@@ -1444,6 +1464,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9067754835279596839, guid: 7bc840069cce4d048853d11fbc162514, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 401006345}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc840069cce4d048853d11fbc162514, type: 3}
 --- !u!1001 &2039786334
@@ -1505,6 +1529,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9067754835279596839, guid: 7bc840069cce4d048853d11fbc162514, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 401006345}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc840069cce4d048853d11fbc162514, type: 3}
 --- !u!1 &2074500240 stripped

@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     private float xBoundary;
     private float zBoundary;
     public GameObject[] cubes;
-    private int cubesCollected;
+    public int cubesLeft;
     private bool won;
     // Start is called before the first frame update
     void Start()
@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour
         xBoundary = 4.5f;
         zBoundary = 48.0f;
         won = false;
+        cubesLeft = cubes.Length;
     }
 
     // Update is called once per frame
@@ -45,18 +46,8 @@ public class PlayerController : MonoBehaviour
         if (transform.position.z > zBoundary) {
             transform.position = new Vector3(transform.position.x, transform.position.y, zBoundary);
         }
-        //Resets to make sure the game doesn't prematurely say the player won.
-        cubesCollected = 0;
-        //Supposed to check if each cube has been collected
-        for(int i = 0; i > cubes.Length; i++) 
-        { 
-            if (cubes[i] == null) 
-            {
-                cubesCollected++;
-            }
-        }
         //The condition of this if statement is never returning true for some reason.
-        if (cubesCollected == cubes.Length)
+        if (cubesLeft == 0)
         {
             won = true;
         }
@@ -65,5 +56,9 @@ public class PlayerController : MonoBehaviour
     public bool getWon() 
     {
         return won;
+    }
+    public void collectCube() 
+    {
+        cubesLeft -= 1;
     }
 }

@@ -8,6 +8,7 @@ public class CubeBehavior : MonoBehaviour
     private bool movingRight;
     private int randomStartingDirection;
     public float speed;
+    public PlayerController player;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +47,7 @@ public class CubeBehavior : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         //If the player touches it, it gets destroyed. Note that the player is the only object in the game with a rigidbody element.
+        player.collectCube();
         Destroy(gameObject);
     }
 

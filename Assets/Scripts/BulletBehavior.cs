@@ -5,10 +5,11 @@ using UnityEngine;
 public class BulletBehavior : MonoBehaviour
 {
     private float zBoundary;
-    public float speed;
+    private float speed;
     // Start is called before the first frame update
     void Start()
     {
+        speed = 30.0f;
         zBoundary = -49.0f;
     }
 

@@ -5,13 +5,15 @@ using UnityEngine;
 public class FollowPlayer : MonoBehaviour
 {
     public GameObject player;
-    public float xOffset;
-    public float yOffset;
-    public float zOffset;
+    private float xOffset;
+    private float yOffset;
+    private float zOffset;
     // Start is called before the first frame update
     void Start()
     {
-        
+        xOffset = 0.0f;
+        yOffset = 1.5f;
+        zOffset = -4.0f;
     }
 
     // LateUpdate is called once per frame after Update is called

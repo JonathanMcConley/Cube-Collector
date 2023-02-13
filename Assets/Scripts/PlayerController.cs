@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     private float xBoundary;
     private float zBoundary;
     public GameObject[] cubes;
-    public int cubesLeft;
+    private int cubesLeft;
     private bool won;
     // Start is called before the first frame update
     void Start()

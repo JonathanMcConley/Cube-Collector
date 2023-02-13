@@ -7,11 +7,12 @@ public class CubeBehavior : MonoBehaviour
     private float xBounds = 4.5f;
     private bool movingRight;
     private int randomStartingDirection;
-    public float speed;
+    private float speed;
     public PlayerController player;
     // Start is called before the first frame update
     void Start()
     {
+        speed = 3.0f;
         randomStartingDirection = Random.Range(0, 2);
         if (randomStartingDirection == 0 )
         {
